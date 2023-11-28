@@ -1,0 +1,24 @@
+<h2 class="text-center">REGISTRESE PARA ACCEDER A MÁS CONTENIDO</h2>
+<div class="contact-form ms-5">
+    <form action="/admin/login" method="post">
+        <div class="mb-3">
+             <label for="exampleInputUsername" class="form-label">Usuario</label>
+            <input type="text" class="form-control" name="usuario" >
+        </div>
+        
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+        </div> 
+
+        <button type="submit" class="btn btn-primary">ACCESO</button><br>
+
+        
+
+        <a class="btn btn-primary" href="/admin/registro" role="button">REGISTRESE</a>
+    </form>
+    {{#if error}}
+    <p>Usuario o contraseña incorrecto</p>
+    {{/if}}
+
+</div>

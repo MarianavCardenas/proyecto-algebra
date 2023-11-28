@@ -1,0 +1,95 @@
+<h2 class="ms-5">INTERSECCION DE CONJUNTOS</h2>
+<div class="row g-0 ms-5 me-5 mt-0  bg-body-secondary position-relative ">
+    <span class="border border-3">
+
+        <div class="col-me-9 p-4 ps-md-5">
+            <h5 class="mt-0 ms-5 fs-4">DEFINICIóN:</h5>
+            <p class="ms-5 fs-5"> <em>Intersección de dos conjuntos A y B es el conjunto formado por lo elementos que
+                    pertenecen a A y B, donde A y B son subconjuntos de U.</em></p>
+            <p class="ms-5 fs-5"><em>El diagrama de Venn es el siguiente:</em></p>
+            <img src="/images/diagrama4.png" alt="" class="rounded mx-auto d-block">
+            <p class="ms-5 fs-5"><em>En símbolos se tiene:</em></p>
+            <p class="text-center h4"><strong> <em> A ∩ B ={ x ε U / x ε A &nbsp; ∧ &nbsp; x ε B} </em></strong></p>
+
+        </div>
+    </span>
+</div>
+
+<div class="ms-5 py-5">
+    <p class="ms-4 reduce-spacing"> La intersección entre conjuntos es una operación binaria, porque a partir de dos
+        conjuntos se obtiene un tercero.</p>
+    <p class="ms-4 reduce-spacing">La propiedad que caracteriza a los elementos de la intersección es la de pertenecer
+        simultáneamente a los dos conjuntos y se establece en términos de una conjunción.</p>
+    <p class="ms-4 reduce-spacing"> La definición de intersección establece</p>
+    <p class="text-center h4"> x ε A ∩ B &nbsp;&nbsp;⇔ &nbsp; x ε A &nbsp; ∧ &nbsp; x ε B</p><br>
+    <p class="ms-4 reduce-spacing">Si la intersección de dos conjuntos es vacía dichos conjuntos se llama disjuntos:</p>
+    <p class="text-center">A y B son disjuntos ⇔ A ∩ B = Ø </p>
+    <p class="ms-3"><u><strong>EJEMPLOS:</strong></u></p>
+    <p class="ms-4"> <strong>i) </strong>Si r y r' son dos rectas distintas incluida en un plano, entonces su
+        intersección puede ser vacía, o bien reducirse a un punto. En el primer caso son paralelas, y en el segunso caso
+        se llaman incidentes. <br>
+        <strong>ii)</strong> La intersección entre el conjunto de los números enteros pares y el conjunto de los números
+        impares es vacía, ya que no existe ningún entero que sea simultáneamente par e impar. <br>
+        <strong>iii)</strong> En Z, la intersección entre el conjunto de los números pares y el conjunto de los números
+        primos es el conjuntos {-2,2}.
+    </p><br>
+    <h5><u>PROPIEDADES DE LA INTERSECCIÓN:</u></h5><br>
+    <ul class="list-inline">
+        <li class="list-inline-item ms-5"><strong>i)IDEMPOTENCIA:</strong></li>
+        <li class="list-inline-item h4 ms-5">A ∩ A = A </li>
+
+    </ul>
+
+    <p class="h4 ms-5 ">
+        En efecto:&nbsp;&nbsp;&nbsp;&nbsp; x ε A ∩ A ⇔ x ε A &nbsp;&nbsp; ∧ &nbsp;&nbsp; x ε A ⇔ x ε A </p><br><br>
+
+    <ul class="list-inline">
+        <li class="list-inline-item ms-5"><strong>ii)ASOCIATIVIDAD:</strong></li>
+        <li class="list-inline-item h4 ms-5">(A ∩ B)∩ C = A ∩(B ∩ C) </li>
+
+    </ul>
+    <p class="ms-5">Utilizando la definición de intersección, y la asociatividad de la conjunción, se tiene lo
+        siguiente: </p>
+    <p class="ms-5 h4"> x ε (A ∩ B)∩ C &nbsp;&nbsp; ⇔ &nbsp;&nbsp;x ε A ∩ B &nbsp;&nbsp;∧ &nbsp;&nbsp;x ε C&nbsp;&nbsp;
+        ⇔ &nbsp;&nbsp;(x ε A &nbsp;&nbsp;∧&nbsp;&nbsp; x ε B)&nbsp;&nbsp; ∧ &nbsp;&nbsp;x ε C&nbsp;&nbsp; ⇔&nbsp;&nbsp;
+        x ε A&nbsp;&nbsp; ∧&nbsp;&nbsp; (x ε B&nbsp;&nbsp; ∧&nbsp;&nbsp; x ε C)&nbsp;&nbsp; ⇔ <br>⇔ &nbsp;&nbsp; x ε
+        A&nbsp;&nbsp; ∧&nbsp;&nbsp; x ε B ∩ C &nbsp;&nbsp;⇔ &nbsp;&nbsp;x ε A ∩(B ∩ C) </p><br><br>
+
+    <ul class="list-inline">
+        <li class="list-inline-item ms-5"><strong>iii)CONMUTATIVIDAD:</strong></li>
+        <li class="list-inline-item h4 ms-5">A ∩ B = B ∩ A </li>
+
+    </ul>
+    <p class="ms-5"> La demostración es obvia aplicando la definición de intersección y la conmutatividad de la
+        conjunción.</p><br><br>
+    <p class="ms-5"><strong>iv) ELEMENTO NEUTRO PARA LA INTERSECCIÓN ES EL UNIVERSAL:</strong> La intersección opera
+        sobre elementos de P(U), es decir, sobre subconjuntos de U. Interesa determinar si existe un subconjunto de U
+        cuya interseccióncon cualquier otro no lo altere. Tal elemento de P(U) se llama neutro para la intersección, y
+        en nuestro caso es el mismo U. En efecto cualquiera que sea: </p>
+    <p class="h4 text-center">A ⊂ U, se verifica A ∩ U = U ∩ A = A </p>
+
+</div>
+<div class="ms-5 py-5">
+    <p class="ms-3"><u><strong>EJEMPLO:</strong></u></p>
+    <ul class="list-inline">
+        <li class="list-inline-item ms-3">La propiedad <strong>IV)</strong> es un corolario del siguiente teortema: </li>
+        <li class="list-inline-item h4 ms-5">A ⊂ B ⇔ A ∩ B = A </li>
+
+    </ul>
+    <p class="ms-3">Por tratarse de una condicion necesaria y sufieciente realizamod las demostraciones de las dos implicaciones: <br><br>
+    <em>i) A ⊂ B ⇒ A ∩ B =A </em><br>
+    Con la información proporcionada por la hipótesis A ⊂ B , tenemos que demostrar la igualdad A ∩ B = A. Por definición de igualdad hemos de probar dos inclusiones: <br><br>
+    a) Sea x ε U tal que x ε A ∩ B, ahora bien. </p>
+    <p class="text-center h4"> x ε A ∩ B ⇒  x ε A &nbsp;&nbsp; ∧ &nbsp;&nbsp; x ε B ⇒ x ε A</p>
+    <p class="ms-3">Por definción de intersección ,y la ley lógica p ∧ q ⇒ p. En consecuencia A ∩ B ⊂ A(1), esta relación nos dice  que la intersección entre dos conjuntos está incluida en cualquiera de ellos. <br><br>
+    b) Sea ahora </p>
+    <p class="text-center h4">x ε A  ⇒  x ε A &nbsp;&nbsp; ∧ &nbsp;&nbsp; x ε B ⇒ x ε A ∩ B</p> 
+    <p class="ms-3">Por la hipótesis y por definición de intersección. Entonces se verifica A ⊂ A ∩ B (2). De (1) y (2) resulta A ∩ B = A</p>
+    <p class="ms-3"><em>ii) A ∩ B = A ⇒ A ⊂ B </em><br>
+    Para demostrar que A ⊂ B, consideremos: </p>
+    <p class="text-center h4">x ε A ⇒ x ε A ∩ B ⇒ x ε A &nbsp;&nbsp; ∧&nbsp;&nbsp; x ε B ⇒ x ε B </p>
+    <p class="ms-3">pues por hipótesis A = A ∩ B; hemos utilizado además la definición de intersección y la ley lógica <em>p ∧ q ⇒ q</em>. Quedo probado así que A ⊂ B.</p><br>
+    <p class="ms-2"> Nótase que  en i) a) no hemos hecho uso de la hipótesis, pero sí en b). Esto nos dice que la propósicion A ∩ B ⊂ C es independientemente de toda condición, es decir, es una propiedad intrínseca de la intersección. </p>
+
+    
+</div>

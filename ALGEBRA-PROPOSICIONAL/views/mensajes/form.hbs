@@ -1,0 +1,24 @@
+
+ <div class="container-xxl">
+
+     <h5 class="ms-5">Si queres más informacion o tenes consúltas escribimos, te podemos ayudar!!</h5>
+
+    </div> <br>
+
+   
+
+<div class="ms-5">
+<div class="contact-form">
+  <span class="heading">CONTÁCTENOS</span>
+  <form action="/mensajes/form" method="post">
+    <label for="nombre">Nombre y apellido:</label>
+    <input type="text" name="nombre">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" >
+    <label for="message">Mensaje</label>
+    <textarea id="message" name="message" ></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <p>{{mensaje}}</p>
+</div>
+</div>

@@ -1,0 +1,110 @@
+<h2 class="ms-5">RAZONAMIENTO DEDUCTIVO VÁLIDO</h1>
+<div class="ms-5 ps-md-3 my-3 mx-5 py-3">
+    <p> En matemáticas interesa el tipo de razonamiento llamado deductivo. Llamamos razonamineto a un par ordenado
+        ({pi;q}), siendo {pi} un conjunto finito de proposiciones, llamadas premisas, y q una proposición, llamada
+        conclusión, respecti de la cual se afirma que deriva de las premisas. </p>
+    <p>Un razonamiento es deductivo si y solo si las premisas son evidencias de las verdad de la conclusion, es decir,
+        si p1, p2,...,pn son verdaderas, entonces q es verdadera. Un razonamiento deductivo es válido si no es posible
+        que las premisas sean verdaderas y la conclusión falsa. De un razonamiento no se dice que es V o F, sino qu es
+        válido o no.</p>
+    <p>Llamamos regla de inferencias, a todo esquema válido de razonamiento, independientemente de la V o F de las
+        proposiciones componentes. De este modo,toda regla de inferencia es tautológica.</p>
+    <p>Un razonamiento deductivo es válido cuando el condicional cuyo antecendente es la conjunción de las premisas, y
+        el consecuente es la conclusión, es tautológico.</p>
+    <p>Son ejemplos de reglas de inferencia:</p>
+    <p class="ms-5"> a) Ley del <em>modus ponens:</em></p>
+    <p class="text-center"> <strong>SI p y p ⇒ q, ENTONCES q</strong></p>
+    <p class="ms-5">La notación clásica es:</p>
+
+    <div class="container-sm">
+        <div class="col-md-2 offset-md-4 ">
+            <div class="text-start">
+                <p class="ms-3">p</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">p ⇒ q</li>
+                    <li class="list-group-item">q </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ms-5 ps-md-3 my-3 mx-5 py-3">
+    <p class="ms-5">b) ley del <em>modus tolens:</em></p>
+    <div class="container-sm">
+        <div class="col-md-2 offset-md-4 ">
+            <div class="text-start">
+                <p class="ms-3">p ⇒ q </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">∼q</li>
+                    <li class="list-group-item">∼p </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ms-5 ps-md-3 my-3 mx-5 py-3">
+    <p>Este esquema es las notacion clásica del condicional</p>
+    <p class="text-center">[(p ⇒ q) ∧∼q] ⇒ ∼p</p>
+    <p class="ms-5">c) Ley del <em>silogismo hipotético:</em></p>
+    <div class="container-sm">
+        <div class="col-md-2 offset-md-4 ">
+            <div class="text-start">
+                <p class="ms-3">p ⇒ q </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">q ⇒ r</li>
+                    <li class="list-group-item">p ⇒ r </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p> Es decir la preposición [(p ⇒ q) ∧ (q ⇒ r)] ⇒ (p ⇒ r ) es una tautología.</p>
+    <p>En cambio, el condicional [(p ⇒ q) ∧ q] ⇒ p no es una forma válida de razonamiento , ya que la correpondiente tabla de valores de verdad nos muestras que no es tautológico.</p>
+</div>
+
+<div class="ms-5 py-0 mt-5">
+    <p> <strong>EJEMPLO:</strong></p>
+</div>
+<div class="ms-5 ps-md-3 my-3 mx-5 py-3">
+    <p class="ms-5">a) Justificar la validez del razonamiento:</p>
+    <div class="container-sm">
+        <div class="col-md-2 offset-md-4 ">
+            <div class="text-start">
+                <p class="ms-3">p ⇒ q </p>
+                <p class="ms-3">∼r ⇒ ∼q</p>
+                <p class="ms-3">∼(∼p ∧ ∼t)</p>
+                <p class="ms-3">t ⇒ s</p>
+            
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">∼r</li>
+                    <li class="list-group-item">s </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p>En lugar de confeccionar la tabla del condicional entre la conjunción de las premisas y la conclusión, haremos uso de las leyes del cálculo proposicional, a fin de simplificar la situación. La segunda premisa es equivalente a la contrarecíproca q ⇒ r; por la ley del silogismo hipotéticom de la primera y de ésta, resulta p ⇒ r. La última premisa es V, y consecuencia r es F, y como p ⇒ r es V resulta necesariamente que p es F. La tercera premisa equivake a p ∨ t, de acuerdo con la ley de morgan, y por ser p falsa resilta la verda de t. Ahora bioenm t y t ⇒ s verdaderos, resulta la verdas de s por la ley de modus ponens.  </p>
+    <p class="ms-5"> b) Justificar la validez del razonamiento cuyas premisas son:</p>
+    <p class="text-center reduce-spacing"> Hoy llueve o hace frío.</p>
+    <p class="text-center">Hoy llueve o no hace frío.</p>
+    <p class="ms-5"> y la conclusión: Hoy llueve.</p>
+    <p>En lenguaje simbólico se tiene:</p>
+
+    <div class="container-sm">
+        <div class="col-md-2 offset-md-4 ">
+            <div class="text-start">
+                <p class="ms-3">p ∨ q </p>
+                
+            
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">p ∨ ∼q</li>
+                    <li class="list-group-item">p </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p>q, o bien ∼q es F; cualquiera que sea el caso, por ser las disyunciones verdaderas, resulta que p es V. De otro modo, la conjunción de ambas disyunciones, por la distrubutividad, es equivalente a p ∨ (q ∧ ∼q). La verdad de aquéllas asegura la verdad de ésta, y como q ∧ ∼q es F, resulta la verdad de p.  </p>
+</div>

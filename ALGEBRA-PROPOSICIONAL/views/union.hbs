@@ -1,0 +1,106 @@
+<h1 class="ms-5">UNION DE CONJUNTOS</h1>
+
+<div class="row g-0 ms-5 me-5 mt-0 bg-body-secondary position-relative ">
+    <span class="border border-3">
+
+        <div class="col-me-9 p-4 ps-md-5">
+            <h5 class="mt-0 ms-5 fs-4">DEFINICIóN:</h5>
+            <p class="ms-5 fs-5"> <em>Union de dos conjuntos A y B es el conjunto formado por los elementos que
+                    pertenecen a A o B.</em></p>
+            <p class="ms-5 fs-5"><em>Simbólicamente se indica:</em></p>
+            <p class="text-center h4"><strong> <em> A U B ={ x ε U / x ε A &nbsp; v &nbsp; x ε B} </em></strong></p>
+            <p class="ms-5 fs-5"><em>Prescindiendo del universal:</em></p>
+            <p class="text-center h4"><strong> <em> A U B ={ x / x ε A &nbsp; v &nbsp; x ε B} </em></strong></p>
+
+        </div>
+    </span>
+</div>
+<div class="ms-5 py-5">
+    <p>La unión de conjuntos,es una operación binaria definida en el conjunto de partes de U. <br>
+        De acuerdo con la definición, podemos escribir lo siguiente:</p>
+    <p class="text-center h4">a ε A U B ⇒ a ε A v a ε B </p>
+    <p>El "o" utilizado es incluyentes, y pertenece a la unión aquellos elementos de U para los cuales es verdadera la
+        disyinción; entonces un elemento pertenece a la unión y solo si pertenece a alguno de los dos conjuntos <br><br>
+        El diagrama de Venn es el siguiente:</p>
+    <img src="/images/diagrama5.png" alt="" class="rounded mx-auto d-block"><br><br>
+    <p>A la unión pertenecen todos los elementos de los conjuntos dados. En el caso de un disjunto se tiene el siguiente
+        diagrama:</p>
+    <img src="/images/diagrama6.png" alt="" class="rounded mx-auto d-block"><br><br>
+
+    <p>Es claro que todo conjunto está contenido en su unión con cualquier otro. En efecto:</p>
+    <p class="text-center h4"> x ε A ⇒ x ε A &nbsp;&nbsp;v &nbsp;&nbsp;x ε B ⇒ x ε A U B</p>
+    <p>es virtud de la ley lógica p ⇒ p v q, y de la definición de unión. Entonces A ⊂ A U B </p>
+
+
+</div>
+<div class="ms-5 py-5">
+
+    <p class="ms-3"><u><strong>EJEMPLOS:</strong></u></p>
+    <p class="ms-4"> <strong>i) </strong>La unión de un par de rectas r y r' contenidas en un plano es el par de rectas.
+        <br>
+        <strong>ii)</strong> La unión de dos semiplanos opuestos y cerrados es el plano.
+    </p><br>
+    <h5><u>PROPIEDADES DE LA UNIÓN:</u></h5><br>
+    <ul class="list-inline">
+        <li class="list-inline-item ms-5"><strong>i)IDEMPOTENCIA:</strong> Cualquiera que sea A, se verifica:</li>
+        <li class="list-inline-item h4 ms-5">A U A = A </li>
+
+    </ul>
+
+    <p class="h4 ms-5 ">
+        pues &nbsp;&nbsp;&nbsp;&nbsp; x ε A U A ⇔ x ε A &nbsp;&nbsp; v &nbsp;&nbsp; x ε A ⇔ x ε A </p>
+    <p class="ms-5">por definición de unión, y la ley lógica <strong>p v p ⇔ p</strong></p> <br><br>
+
+    <ul class="list-inline">
+        <li class="list-inline-item ms-5"><strong>ii)ASOCIATIVIDAD:</strong> Cualesquiera que sean A, B y C.</li>
+        <li class="list-inline-item h4 ms-5">(A U B)U C = A U(B U C) </li>
+
+    </ul>
+    <p class="ms-5">La demostración es análoga a la propuesta en el caso de la asocietividad de la intersección,
+        utilizando ahora la definición de unión y propiedades de la disyunción. </p> <br><br>
+
+    <ul class="list-inline">
+        <li class="list-inline-item ms-5"><strong>iii)CONMUTATIVIDAD:</strong> Para todo para de subconjunto de U, se
+            verifica:</li>
+        <li class="list-inline-item h4 ms-5">A U B = B U A </li>
+        <li class="list-inline-item  ms-2">Pues:</li>
+
+    </ul>
+    <p class="h4 ms-5 text-center"> x ε (A U B) &nbsp;&nbsp; ⇔ &nbsp;&nbsp;x ε A &nbsp;&nbsp;v &nbsp;&nbsp;x ε B&nbsp;&nbsp;⇔ &nbsp;&nbsp;x ε B &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; x ε A&nbsp;&nbsp;⇔  &nbsp;&nbsp;x ε B U A</p><br><br>
+    
+    <p class="ms-5"><strong>iv) ELEMENTO NEUTRO PARA LA UNIÓN ES EL CONJUNTO VACIO:</strong> Es decir, cualquiera que sea A ⊂ U, se tiene:</p>
+    <p class="h4 text-center">A U Ø = Ø U A = A</p>
+    <p class="ms-5"> Tratamos sólo el caso A U Ø =A, ya que la conmutatividad nos exime de la otra situación. <br> 
+    Sabemos que por la definicón de unión lo siguiente: A ⊂ A U Ø (1)<br>
+    Sea ahora &nbsp;&nbsp;x ε A U Ø ⇒ x ε A v &nbsp;&nbsp; x ε Ø ⇒ x ε A, por definicion de union y por ser falso x ε Ø. Luego A U Ø ⊂ A (2). <br> Por (1) y (2) resulta la igualdad propuesta.  </p>
+    
+
+</div>
+
+<div class="ms-5 py-5">
+    <p class="ms-3"><u><strong>EJEMPLO:</strong></u></p>
+    <ul class="list-inline">
+        <li class="list-inline-item ms-3">Demostrar: </li>
+        <li class="list-inline-item h4 ms-5">A ⊂ B ⇔ A U B = B </li>
+
+    </ul>
+    <ul class="list-inline">
+        <li class="list-inline-item ms-3"><strong>Hipótesis:</strong> A ⊂ B</li>
+        <li class="list-inline-item  ms-5"><strong>Tesis:</strong> A U B = B </li>
+
+    </ul>
+    <p class="ms-3"><strong>Demostración:</strong> Como cada conjunto está contenido en su unión con cualquier otro, se tiene:</p>
+    <p class="text-center h4">B ⊂ A U B (1)</p>
+    <p class="ms-5">Consideremos ahora:</p>
+    <p class="h4 ms-5 text-center"> x ε (A U B) &nbsp;&nbsp; ⇒ &nbsp;&nbsp;x ε A &nbsp;&nbsp;&nbsp; v &nbsp; &nbsp;&nbsp;x ε B&nbsp;&nbsp;⇒ &nbsp;&nbsp;x ε B &nbsp;&nbsp;&nbsp; v&nbsp; &nbsp;&nbsp; x ε B&nbsp;&nbsp; ⇒ &nbsp;&nbsp;x ε B </p><br><br>
+    
+
+    <ul class="list-inline">
+        <li class="list-inline-item ms-3">por definición de unión, por hipótesis y por ley p v p ⇒ p. </li>
+        <li class="list-inline-item  ms-5"> Entonces:</li>
+        <li class="list-inline-item  ms-5 h4"> A U B ⊂ B (2)</li>
+        <li class="list-inline-item  ms-5"> De (1) y (2) resulta A U B = B</li>
+
+    </ul>
+    
+</div>
